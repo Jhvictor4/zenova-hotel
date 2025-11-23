@@ -1,0 +1,13 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Allow ChatGPT crawler specifically
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+# Sitemap location
+Sitemap: https://zenova-sky-hotel.com/sitemap.xml
