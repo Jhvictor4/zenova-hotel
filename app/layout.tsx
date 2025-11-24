@@ -52,6 +52,7 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <head>
+        <meta name="google-site-verification" content="Xh38jJc363_B7P_sZ5L3ywJWZuO2EpxG9x-m3jJYjGg" />
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={`${notoSansKr.variable} antialiased`}>
