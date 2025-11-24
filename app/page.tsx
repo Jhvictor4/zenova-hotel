@@ -5,7 +5,7 @@ import PhotoGrid from "./components/PhotoGrid";
 import BookingSidebar from "./components/BookingSidebar";
 import FacilityCard from "./components/FacilityCard";
 import Footer from "./components/Footer";
-import { ImageTestGallery } from "./components/ImageTestGallery";
+// import { ImageTestGallery } from "./components/ImageTestGallery"; // Hidden - using PhotoGrid instead
 import { Wifi, Coffee, Utensils, Waves, Car, Dumbbell, Star, Share, Heart, MapPin } from "lucide-react";
 import Image from "next/image";
 
@@ -170,6 +170,8 @@ export default function Home() {
               </div>
 
               {/* Image Test Gallery (Technical Demo) */}
+              {/* ImageTestGallery hidden - using PhotoGrid for GEO testing */}
+              {/*
               <div className="border-b border-gray-200 pb-8 mb-8">
                 <div className="mb-6">
                   <span className="text-primary-600 font-bold tracking-wider text-sm uppercase">Technical Demo</span>
@@ -178,6 +180,7 @@ export default function Home() {
                 </div>
                 <ImageTestGallery />
               </div>
+              */}
 
             </div>
 
