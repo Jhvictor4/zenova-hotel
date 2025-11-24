@@ -171,9 +171,9 @@ export default function PhotoGrid() {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "ImageObject",
-            "@id": `https://zenova-sky-hotel.com/images/${test.id}`,
-            "contentUrl": `https://zenova-sky-hotel.com${test.src.startsWith('http') ? test.src : test.src}`,
-            "url": `https://zenova-sky-hotel.com${test.src.startsWith('http') ? test.src : test.src}`,
+            "@id": `https://zenova-hotel.vercel.app/images/${test.id}`,
+            "contentUrl": `https://zenova-hotel.vercel.app${test.src.startsWith('http') ? test.src : test.src}`,
+            "url": `https://zenova-hotel.vercel.app${test.src.startsWith('http') ? test.src : test.src}`,
             "name": test.alt,
             "description": test.caption || test.alt,
             "width": test.width,

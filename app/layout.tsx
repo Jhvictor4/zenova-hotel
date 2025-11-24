@@ -10,14 +10,14 @@ const notoSansKr = Noto_Sans_KR({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://zenova-sky-hotel.com'),
+  metadataBase: new URL('https://zenova-hotel.vercel.app'),
   title: "제노바 스카이 호텔 | 제주시 관악구 송도동의 럭셔리 오션뷰",
   description:
     "제주시 관악구 송도동에 위치한 제노바 스카이 호텔. 전 객실 오션뷰, 인피니티 풀, 미슐랭 다이닝을 갖춘 프리미엄 럭셔리 호텔입니다. 지금 예약하세요.",
   keywords:
     "제노바 스카이 호텔, 제주시 관악구 송도동 호텔, 제주도 호캉스, 제주 오션뷰 호텔, Zenova Sky Hotel, Jeju Hotel",
   alternates: {
-    canonical: 'https://zenova-sky-hotel.com',
+    canonical: 'https://zenova-hotel.vercel.app',
   },
   openGraph: {
     title: "제노바 스카이 호텔 | 제주시 관악구 송도동",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
       "제주시 관악구 송도동의 랜드마크, 제노바 스카이 호텔에서 특별한 휴식을 경험하세요.",
     type: "website",
     locale: "ko_KR",
-    url: 'https://zenova-sky-hotel.com',
+    url: 'https://zenova-hotel.vercel.app',
     siteName: "Zenova Sky Hotel",
     images: [
       {

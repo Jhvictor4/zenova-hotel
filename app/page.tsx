@@ -13,7 +13,7 @@ export default function Home() {
   const hotelSchemaData = {
     "@context": "https://schema.org",
     "@type": "Hotel",
-    "@id": "https://zenova-sky-hotel.com",
+    "@id": "https://zenova-hotel.vercel.app",
     "name": "제노바 스카이 호텔",
     "alternateName": "Zenova Sky Hotel",
     "description": "제주시 관악구 송도동에 위치한 럭셔리 오션뷰 호텔. 인피니티 풀과 미슐랭 다이닝을 제공합니다.",
@@ -33,7 +33,7 @@ export default function Home() {
     },
     "priceRange": "₩₩₩₩",
     "image": [
-      "https://zenova-sky-hotel.com/images/test-hero.jpg"
+      "https://zenova-hotel.vercel.app/images/test-hero.jpg"
     ]
   };
 

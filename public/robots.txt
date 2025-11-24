@@ -10,4 +10,4 @@ User-agent: GPTBot
 Allow: /
 
 # Sitemap location
-Sitemap: https://zenova-sky-hotel.com/sitemap.xml
+Sitemap: https://zenova-hotel.vercel.app/sitemap.xml
