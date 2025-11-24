@@ -29,9 +29,9 @@ export const metadata: Metadata = {
     siteName: "Zenova Sky Hotel",
     images: [
       {
-        url: "/images/test-hero.jpg",
-        width: 1920,
-        height: 1080,
+        url: "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+        width: 1200,
+        height: 630,
         alt: "제노바 스카이 부티크 호텔 프리미엄 오션뷰 스위트 - 제주시 관악구 송도동",
       },
     ],
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "제노바 스카이 호텔 | 제주시 관악구 송도동",
     description: "제주시 관악구 송도동의 랜드마크, 제노바 스카이 호텔에서 특별한 휴식을 경험하세요.",
-    images: ["/images/test-hero.jpg"],
+    images: ["https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"],
   },
 };
 
