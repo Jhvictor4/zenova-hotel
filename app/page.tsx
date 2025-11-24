@@ -37,13 +37,8 @@ export default function Home() {
     ]
   };
 
-  const hotelImages = [
-    "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
-    "https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
-    "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
-    "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&auto=format&fit=crop&w=1374&q=80",
-    "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
-  ];
+  // PhotoGrid now uses internal imageTests array (A-H, ★)
+  // Old hotelImages array removed - PhotoGrid is self-contained
 
   const facilities = [
     { icon: <Waves size={24} />, title: "인피니티 풀", description: "바다와 하늘이 만나는 곳에서 즐기는 수영" },
@@ -99,7 +94,7 @@ export default function Home() {
 
           {/* Photo Grid */}
           <section className="mb-12">
-            <PhotoGrid images={hotelImages} />
+            <PhotoGrid />
           </section>
 
           {/* Split Layout */}
