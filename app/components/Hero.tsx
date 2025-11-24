@@ -1,4 +1,4 @@
-"use client";
+
 
 import { Search, Calendar, Users, MapPin } from "lucide-react";
 

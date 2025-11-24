@@ -1,4 +1,4 @@
-"use client";
+
 
 import Link from "next/link";
 import { Menu, Search, User, Globe } from "lucide-react";

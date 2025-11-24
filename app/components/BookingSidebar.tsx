@@ -1,4 +1,4 @@
-"use client";
+
 
 import { Star, ChevronDown } from "lucide-react";
 

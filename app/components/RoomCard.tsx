@@ -1,4 +1,4 @@
-"use client";
+
 
 import { Star, Heart } from "lucide-react";
 import Image from "next/image";
