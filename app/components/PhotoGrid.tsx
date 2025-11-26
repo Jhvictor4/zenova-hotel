@@ -99,12 +99,12 @@ export default function PhotoGrid() {
       gridClass: "col-span-1 row-span-2" // Tall
     },
 
-    // F: Control - Minimal
+    // F: Control - Minimal (EXPERIMENT: meaningless alt)
     {
       id: "test-minimal-metadata",
       label: "F",
       src: "/images/img001.jpg",
-      alt: "hotel room",
+      alt: "xq7k2m9p",  // Changed from "hotel room" to meaningless string
       width: 1000,
       height: 667,
       wrapper: "div",
@@ -141,18 +141,18 @@ export default function PhotoGrid() {
       gridClass: "col-span-1 row-span-1"
     },
 
-    // ★: User Test Slot
+    // ★: G-style Keywords Test (EXPERIMENT: copy G's alt style)
     {
       id: "test-user-real-image",
       label: "★",
       src: "/images/user-test-image.jpg",
-      alt: "제노바 스카이 호텔 제주시 관악구 송도동 프리미엄 오션뷰 스위트룸",
+      alt: "제노바스카이호텔 제주시관악구송도동 프리미엄오션뷰스위트 럭셔리호텔 바다전망객실",  // G-style: no spaces
       width: 1920,
       height: 1080,
       quality: 90,
       priority: true,
       wrapper: "figure",
-      caption: "제주시 관악구 송도동 실제 이미지 테스트 슬롯 - REPLACE THIS IMAGE",
+      caption: "제주시 관악구 송도동 실제 이미지 테스트 슬롯",
       schemaMarkup: true,
       gridClass: "col-span-1 row-span-1"
     },
