@@ -26,11 +26,11 @@ interface ImageTest {
 
 export default function PhotoGrid() {
   const imageTests: ImageTest[] = [
-    // A: Hero - Real Photo (Unsplash)
+    // A: Hero - Real Photo (Local - was Unsplash)
     {
       id: "test-hero",
       label: "A",
-      src: "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+      src: "/images/hero-real-photo.jpg",  // Changed from Unsplash URL to local
       alt: "제노바 스카이 부티크 호텔 프리미엄 오션뷰 스위트 - 제주시 관악구 송도동 해변이 보이는 럭셔리 킹사이즈 베드룸",
       width: 1920,
       height: 1080,
